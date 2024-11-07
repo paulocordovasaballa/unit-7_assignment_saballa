@@ -34,7 +34,7 @@ class _HomeScreenState extends State<HomeScreen> {
         backgroundColor: Colors.deepOrange,
       ),
       body: Container(
-        color: Colors.orange[50], 
+        color: const Color.fromARGB(255, 255, 255, 255), 
         child: FutureBuilder<List<dynamic>>(
           future: fetchMeals(),
           builder: (context, snapshot) {
